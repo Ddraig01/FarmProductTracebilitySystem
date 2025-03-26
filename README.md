@@ -74,42 +74,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
 ```
 
----
-
-## **📝 Usage**
-### **🔹 Register a Farmer**
-```sh
-npx hardhat run scripts/registerFarmer.js --network sepolia
-```
-
-### **🔹 Add a Product Batch**
-```sh
-npx hardhat run scripts/addProductBatch.js --network sepolia
-```
-
-### **🔹 Update Supply Chain Info**
-```sh
-npx hardhat run scripts/updateBatch.js --network sepolia
-```
-
-### **🔹 Verify a Product (Consumer)**
-```sh
-npx hardhat run scripts/verifyProduct.js --network sepolia
-```
-
----
-
-## **🛡 Security Considerations**
-- **Access Control** – Only registered farmers can create product batches.  
-- **Data Integrity** – All product updates are immutable on the blockchain.  
-- **Consumer Privacy** – Consumers can remain anonymous when giving feedback.  
-
----
-
-
-
----
-
 ## **📜 License**
 This project is licensed under the **MIT License**.
 
@@ -122,6 +86,3 @@ This project is licensed under the **MIT License**.
 
 ---
 
-This **README.md** is structured to **give clarity** and **help users easily understand** the project while making deployment simple! 🚀  
-
-Would you like any modifications? 😊

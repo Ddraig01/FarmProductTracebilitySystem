@@ -1,7 +1,3 @@
-Here's a **professional and well-structured** `README.md` for your **Produce Traceability System** project:  
-
----
-
 ## **🌿 Produce Traceability System**  
 _A blockchain-based solution for food supply chain transparency._
 
